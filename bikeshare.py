@@ -191,7 +191,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def show_raw_data(df):
+def raw_data(df):
     """
     Displays rows of raw data based on user's request.
           
@@ -219,7 +219,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        show_raw_data(df)
+        raw_data(df)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
