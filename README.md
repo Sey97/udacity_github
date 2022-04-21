@@ -47,5 +47,10 @@ The original files for the three cities can be accessed here:
 - bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
+- https://www.programiz.com/python-programming/datetime
+- https://www.programiz.com/python-programming/exception-handling
+- https://stackoverflow.com/questions/920645/when-to-use-while-or-for-in-python
+- https://docs.python.org/3/tutorial/errors.html
+- https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
