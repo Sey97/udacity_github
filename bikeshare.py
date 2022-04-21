@@ -95,8 +95,8 @@ def time_stats(df):
 
     # TO DO: display the most common month
     # We use the mode method on the month column to find the most common month
-    most_common_month = df['month'].mode()[0]
-    print('The most common month is', most_common_month)
+    common_month = df['month'].mode()[0]
+    print('The most common month is', common_month)
 
     # TO DO: display the most common day of week
     # We use the mode method on the day of the week column to find the most common day
@@ -191,7 +191,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def show_raw_data(df):
+def raw_data(df):
     """
     Displays rows of raw data based on user's request.
           
@@ -219,7 +219,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        show_raw_data(df)
+        raw_data(df)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
