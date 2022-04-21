@@ -22,6 +22,24 @@ In addition, the code has been written to handle unexpected user input well with
 
 The script prompts the user whether they would like want to see the raw data. If the user answers 'yes', then the script prints 5 rows of the data at a time, then asks the user if they would like to see 5 more rows of the data. The script continues prompting and printing the next 5 rows at a time until the user chooses 'no,' they do not want any more raw data to be displayed.
 
+#### **Datasets**
+The data for all the three cities were randomly selected for the first six months of 2017. All three of the data files contain the same core **six (6)** columns:
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
+
+The Chicago and New York City files also have the following two columns:
+- Gender
+- Birth Year
+
+The original files for the three cities can be accessed here:
+- [Chicago](https://ride.divvybikes.com/system-data)
+- [New_York_City](https://ride.citibikenyc.com/system-data)
+- [Washington](https://ride.capitalbikeshare.com/system-data)
+
 ### Files used
 - chicago.csv
 - washington.csv
