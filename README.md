@@ -46,6 +46,9 @@ The original files for the three cities can be accessed here:
 - new_york_city.csv
 - bikeshare.py
 
+#### ***Link to file data***
+- [City data](https://drive.google.com/drive/folders/1ILlUFEz2GKN4EUwjSueCuR7OhRaRrUOf?usp=sharing)
+
 ### Credits
 - https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
 - https://www.programiz.com/python-programming/datetime
